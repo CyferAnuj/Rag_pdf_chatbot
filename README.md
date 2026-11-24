@@ -152,7 +152,7 @@ More technical screenshots and AI response examples are available here:
 - RecursiveCharacterTextSplitter
 - RetrievalQA Chain
 - Ollama
-- Phi3 LLM
+- Groq LLM
 
 ---
 
@@ -354,18 +354,14 @@ pip install -r requirements.txt
 
 ---
 
-## 5. Install Ollama
-
-Download Ollama:
-
-👉 https://ollama.com
+## 5. Skip bro hihhihi
 
 ---
 
-## 6. Pull Phi3 Model
+## 6. Groq Model
 
 ```bash
-ollama pull phi3
+openai/gpt-oss-120b
 ```
 
 ---
@@ -381,9 +377,9 @@ backend/.env
 Add:
 
 ```env
-OLLAMA_MODEL=phi3
+OLLAMA_MODEL=openai/gpt-oss-120b
 
-MONGO_URL=mongodb://localhost:27017
+MONGO_URL=your-mongo-url
 
 DATABASE_NAME=rag_pdf_chatbot
 
@@ -561,11 +557,11 @@ Optimized for low-end laptops with 8GB RAM.
 
 # 👩‍💻 Author
 
-## Vanshika Devi
+## Anuj Singh
 
 GitHub:
 
-👉 https://github.com/Vanshika-devi
+👉 https://github.com/CyferAnuj
 
 ---
 
